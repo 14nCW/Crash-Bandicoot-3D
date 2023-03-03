@@ -20,8 +20,7 @@ public class Player : MonoBehaviour {
     Vector3 velocity;
 
     private void Start() {
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        
     }
 
     private void Update() {

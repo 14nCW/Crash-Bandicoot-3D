@@ -16,6 +16,9 @@ public class GameHandler : MonoBehaviour {
     void Awake() {
         boxesOnMap = GameObject.FindGameObjectsWithTag("Box").Length;
         boxLeft.text = "Boxes Left: " + boxesOnMap;
+
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     void Update() {
