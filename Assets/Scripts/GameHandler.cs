@@ -12,7 +12,6 @@ public class GameHandler : MonoBehaviour {
     float desiredTime = 2f;
     float elapsedTime = 0;
     int boxesOnMap;
-    int radius = 7;
 
     void Awake() {
         boxesOnMap = GameObject.FindGameObjectsWithTag("Box").Length;
