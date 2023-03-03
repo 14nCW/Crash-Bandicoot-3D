@@ -23,6 +23,10 @@ public class GameHandler : MonoBehaviour {
 
     void Update() {
         CameraDistance();
+
+        if (Input.GetKey(KeyCode.Escape)) {
+            Application.Quit();
+        }
     }
 
     public void RemovedBox() {
